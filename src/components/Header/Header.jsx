@@ -4,7 +4,7 @@ import './Header.css';
 function Header(){
     return (
         <header className="header">
-        <h2>Medusa Comp</h2>        
+        <h4>MedusaComp</h4>        
         <nav className="navigation">
             <ul>
             <li><a href="/">Inicio</a></li>
