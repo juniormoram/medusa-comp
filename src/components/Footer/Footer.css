@@ -1,0 +1,43 @@
+.container-footer {
+  background-color: #ffffff;
+  height: auto;
+}
+
+.footer-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: auto;
+  margin-top: 8%;
+  padding-left: 3.8%;
+}
+
+.section-info {
+  text-align: left;
+  padding: 3%;
+  padding-top: 6%;
+  text-align: justify;
+}
+
+.icons {
+  display: inline-flex;
+  justify-self: end;
+  font-size: xx-large;
+  padding-top: 15%;
+  padding-bottom: 6%;
+  margin: 3%;
+}
+
+.info {
+  font-size: large;
+  margin-top: 4%;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 550px) {
+  .footer-sections {
+    display: inline-block;
+    flex-direction: column;
+    width: 70%;
+  }
+}

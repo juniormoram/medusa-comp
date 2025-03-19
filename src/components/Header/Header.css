@@ -2,11 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  background-color: white;
-  height: 55px;
+  padding: 2rem;
+  padding-top: 3rem;
+  background-color: #ffffff;
+  height: 65px;
   width: 100%;
-  max-width: 90%;
+  max-width: 95%;
   margin: 0 auto;
   overflow: hidden;
 }
