@@ -4,17 +4,23 @@
   height: auto;
   margin-top: 8%;
   padding-left: 3.8%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   background-color: #ffffff;
 }
 
 .container-info {
   text-align: left;
   padding: 3%;
+  align-content: center;
+}
+
+.container-info h2 {
+  padding-left: 5.5%;
+  align-content: center;
 }
 
 .container-info p {
-  font-size: x-large;
+  font-size: large;
   text-align: justify;
   padding-top: 2%;
 }
@@ -24,4 +30,18 @@
   align-self: center;
   max-width: 85%;
   max-height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .container-about {
+    display: block;
+    padding-left: 0;
+  }
+
+  .container-info p {
+    font-size: large;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }

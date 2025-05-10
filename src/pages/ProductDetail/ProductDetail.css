@@ -1,4 +1,72 @@
 .container-detail {
-  height: 100vh;
-  background-color: aqua;
+  height: auto;
+  background-color: #ffffff;
+}
+
+.detail-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+  margin-top: 2%;
+}
+
+.detail-sections img {
+  justify-self: center;
+  align-self: top;
+  max-width: 90%;
+  max-height: 70%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px;
+}
+
+select {
+  width: 90%;
+  height: 38px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.detail-info {
+  padding-right: 3%;
+  padding-left: 15%;
+  padding-top: 3%;
+  text-align: justify;
+  font-size: large;
+  max-width: 90%;
+  max-height: 70%;
+}
+
+.detail-sections button {
+  width: 90%;
+  height: 38px;
+  background-color: black;
+  font-size: medium;
+  border: 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px;
+}
+
+.detail-sections button:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px black;
+  border-radius: 10px black;
+  transition: 0.2s;
+}
+
+@media (max-width: 900px) {
+  .detail-sections {
+    display: inline-block;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+  }
+
+  .detail-info {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
 }

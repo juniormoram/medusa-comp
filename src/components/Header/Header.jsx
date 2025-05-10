@@ -9,19 +9,19 @@ function Header() {
       <nav className="navigation">
         <ul>
           <li>
-            <a href="/">Inicio</a>
-          </li>
-          <li>
-            <Link
-              to="/product-detail"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Productos
+            <Link to="/home">
+              <i class="fa-solid fa-house"></i>
             </Link>
           </li>
           <li>
-            <a href="/cart">Carrito (0)</a>
+            <Link to="/product-detail">
+              <i class="fa-solid fa-shirt"></i>
+            </Link>
+          </li>
+          <li>
+            <Link to="/cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </Link>
           </li>
         </ul>
       </nav>

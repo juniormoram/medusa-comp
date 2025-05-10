@@ -22,7 +22,7 @@ function AboutMedu() {
           neque illo ratione fugiat amet dicta iure optio voluptatum? Et.
         </p>
       </div>
-      <img className="about-img" src="src/assets/imgs/Carrus1.jpg"></img>
+      <img className="about-img" src="src/assets/imgs/Yezzy.webp"></img>
     </div>
   );
 }
